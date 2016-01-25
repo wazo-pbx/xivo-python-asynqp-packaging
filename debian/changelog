@@ -1,0 +1,5 @@
+xivo-python-asynqp-packaging (0.4-1~xivo1) xivo-dev; urgency=medium
+
+  * Initial release.
+
+ -- Etienne Lessard <elessard@avencall.com>  Mon, 25 Jan 2016 13:54:49 -0500

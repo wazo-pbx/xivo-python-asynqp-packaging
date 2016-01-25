@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+PKG = $(word 2,$(shell dpkg-parsechangelog | grep Source))
+VER ?= $(shell cat VERSION)
+ASYNQP_URL_DOWNLOAD = "https://github.com/benjamin-hodgson/asynqp/archive/v${VER}.tar.gz"
+
+export PYBUILD_NAME=asynqp
+export PYBUILD_DISABLE=test
+export PYBUILD_SYSTEM=distutils
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_clean:
+	# TODO instead of just skipping dh_auto_clean, handle case were setup.py is not there
+
+.PHONY: get-orig-source
+
+get-orig-source:
+	@echo "# Downloading..."
+	wget -nv -T10 -t3 $(ASYNQP_URL_DOWNLOAD) -O ../$(PKG)_$(VER).orig.tar.gz

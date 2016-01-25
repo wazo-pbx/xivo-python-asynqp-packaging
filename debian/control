@@ -1,0 +1,14 @@
+Source: xivo-python-asynqp-packaging
+Section: python
+Priority: optional
+Maintainer: XiVO Dev Team <dev@avencall.com>
+Uploaders: XiVO Builder Team <dev@avencall.com>
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-setuptools
+Standards-Version: 3.9.5
+X-Python-Version: >= 3.4
+
+Package: python3-asynqp
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Python AMQP client library
+ asynqp is an AMQP (aka RabbitMQ) client library for Python 3.4's new asyncio module.
