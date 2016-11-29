@@ -1,3 +1,9 @@
+xivo-python-asynqp-packaging (0.4-1~xivo3) wazo-dev; urgency=medium
+
+  * update version
+
+ -- Etienne Lessard <elessard97@gmail.com>  Tue, 29 Nov 2016 14:29:30 -0500
+
 xivo-python-asynqp-packaging (0.4-1~xivo2) xivo-dev; urgency=medium
 
   * Initial release.
