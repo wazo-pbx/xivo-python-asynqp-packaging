@@ -1,3 +1,9 @@
+xivo-python-asynqp-packaging (0.4-1~xivo4) wazo-dev; urgency=medium
+
+  * update for stretch
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Tue, 09 Jan 2018 13:46:39 -0500
+
 xivo-python-asynqp-packaging (0.4-1~xivo3) wazo-dev; urgency=medium
 
   * update version
