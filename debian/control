@@ -1,8 +1,7 @@
-Source: xivo-python-asynqp-packaging
+Source: wazo-python-asynqp-packaging
 Section: python
 Priority: optional
-Maintainer: XiVO Dev Team <dev@avencall.com>
-Uploaders: XiVO Builder Team <dev@avencall.com>
+Maintainer: Wazo Maintainers <dev@wazo.community>
 Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-setuptools
 Standards-Version: 3.9.5
 X-Python3-Version: >= 3.4
