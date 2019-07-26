@@ -1,6 +1,6 @@
-wazo-python-asynqp-packaging (0.6-1) wazo-dev; urgency=medium
+wazo-python-asynqp-packaging (0.4-2) wazo-dev; urgency=medium
 
-  * update for buster
+  * Rename source package
 
  -- Wazo Maintainers <dev+pkg@wazo.community>  Fri, 26 Jul 2019 11:34:38 +0200
 
