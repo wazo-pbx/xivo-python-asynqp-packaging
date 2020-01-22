@@ -10,4 +10,5 @@ Package: python3-asynqp
 Architecture: all
 Depends: ${python3:Depends}, ${misc:Depends}
 Description: Python AMQP client library
+ .
  asynqp is an AMQP (aka RabbitMQ) client library for Python 3.4's new asyncio module.
