@@ -1,3 +1,9 @@
+wazo-python-asynqp-packaging (0.6-2) wazo-dev-buster; urgency=medium
+
+  * rebuild
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Wed, 29 Jan 2020 12:13:36 +0100
+
 wazo-python-asynqp-packaging (0.6-1) wazo-dev; urgency=medium
 
   * Update to buster
